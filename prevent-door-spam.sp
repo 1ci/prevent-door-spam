@@ -32,8 +32,6 @@ public Plugin myinfo =
  */
 public void OnPluginStart()
 {
-
-	
 	HookEntityOutput("prop_door_rotating", "OnOpen", StartAction);
 	HookEntityOutput("prop_door_rotating", "OnClose", StartAction);
 	HookEntityOutput("prop_door_rotating", "OnFullyOpen", EndAction);
